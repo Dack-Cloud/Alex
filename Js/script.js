@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", () => {  const btn = document.querySelector(".menu-toggle");  const header = document.querySelector("header");  btn?.addEventListener("click", () => {    header.classList.toggle("active");  });});
